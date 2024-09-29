@@ -12,8 +12,8 @@ const PlayerDetailStart = () => {
   return (
     <View style={styles.container}>
              <StatusBar
-        barStyle="light-content" // Metin rengini açar
-        backgroundColor="rgb(0,45,114)" // StatusBar arka plan rengi
+        barStyle="light-content" 
+        backgroundColor="rgb(0,45,114)" 
       />
       <View style={styles.start}>
        <Pressable onPress={handleGoBack}>

@@ -12,7 +12,7 @@ export default function News({ route }) {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        axios.get('http://192.168.1.25:3004/news')
+        axios.get('http://API/news')
             .then(response => {
                 setData(response.data);
             })
